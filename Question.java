@@ -5,11 +5,8 @@ abstract class Question {
      String answer;
 
     public Question() {
-
+    
     }
-
-
-
     public void setDescription(String description){
         this.description = description;
     }

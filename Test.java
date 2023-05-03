@@ -2,13 +2,18 @@ package com.company;
 
 class Test extends Question{
     String[] options;
+    
     String[] strings;
+    
     int numOfOptions;
+    
     java.util.ArrayList labels;
+    
     public Test(String[] strings){
         super();
         labels = new java.util.ArrayList();
     }
+    
     public Test(String[] options, String[] strings){
         this.options = options;
         this.numOfOptions = numOfOptions;
@@ -22,6 +27,7 @@ class Test extends Question{
     public void setOptions(String[] options){
         this.options = options;
     }
+    
     public String getOptionsAt(int numOfOptions){
         return options[numOfOptions];
     }
